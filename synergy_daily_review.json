@@ -1,20 +1,21 @@
 {
-  "generated_utc": "2026-09-30T10:06:54.546190+00:00",
+  "generated_utc": "2026-09-30T18:00:00.411269+00:00",
   "local_date": "2026-09-30",
   "market": {
     "open": 4177.19,
-    "high": 4202.16,
-    "low": 4165.5,
-    "last": 4188.93,
-    "range_pips": 366.6,
-    "net_pips": 117.4
+    "high": 4219.27,
+    "low": 4147.38,
+    "last": 4151.39,
+    "range_pips": 718.9,
+    "net_pips": -258.0
   },
   "what_he_posted": {
-    "signal_count": 13,
+    "signal_count": 21,
     "direction_split": {
-      "buy limit": 7,
+      "buy limit": 12,
       "sell": 3,
-      "buy": 3
+      "buy": 5,
+      "sell limit": 1
     },
     "signals": [
       {
@@ -159,6 +160,94 @@
         "tp1": 4191.0,
         "tp2": 4187.0,
         "tp3": 4182.0
+      },
+      {
+        "time": "10:56:20",
+        "id": 1227,
+        "direction": "buy",
+        "entry_low": 4170.0,
+        "entry_high": 4180.0,
+        "sl": 4168.0,
+        "tp1": 4190.0,
+        "tp2": 4200.0,
+        "tp3": 4210.0
+      },
+      {
+        "time": "11:26:20",
+        "id": 1228,
+        "direction": "buy",
+        "entry_low": 4173.0,
+        "entry_high": 4178.0,
+        "sl": 4172.0,
+        "tp1": 4181.0,
+        "tp2": 4185.0,
+        "tp3": 4190.0
+      },
+      {
+        "time": "12:11:20",
+        "id": 1229,
+        "direction": "sell limit",
+        "entry_low": 4212.0,
+        "entry_high": 4217.0,
+        "sl": 4218.0,
+        "tp1": 4210.0,
+        "tp2": 4207.0,
+        "tp3": 4203.0
+      },
+      {
+        "time": "12:41:20",
+        "id": 1230,
+        "direction": "buy limit",
+        "entry_low": 4189.0,
+        "entry_high": 4194.0,
+        "sl": 4188.0,
+        "tp1": 4196.0,
+        "tp2": 4199.0,
+        "tp3": 4203.0
+      },
+      {
+        "time": "12:41:20",
+        "id": 1231,
+        "direction": "buy limit",
+        "entry_low": 4182.0,
+        "entry_high": 4188.0,
+        "sl": 4181.0,
+        "tp1": 4191.0,
+        "tp2": 4195.0,
+        "tp3": 4200.0
+      },
+      {
+        "time": "14:11:21",
+        "id": 1232,
+        "direction": "buy limit",
+        "entry_low": 4168.0,
+        "entry_high": 4174.0,
+        "sl": 4167.0,
+        "tp1": 4177.0,
+        "tp2": 4181.0,
+        "tp3": 4186.0
+      },
+      {
+        "time": "15:11:21",
+        "id": 1233,
+        "direction": "buy limit",
+        "entry_low": 4152.0,
+        "entry_high": 4158.0,
+        "sl": 4148.0,
+        "tp1": 4161.0,
+        "tp2": 4165.0,
+        "tp3": 4178.0
+      },
+      {
+        "time": "15:26:21",
+        "id": 1234,
+        "direction": "buy limit",
+        "entry_low": 4152.0,
+        "entry_high": 4158.0,
+        "sl": 4148.0,
+        "tp1": 4161.0,
+        "tp2": 4165.0,
+        "tp3": 4178.0
       }
     ],
     "commentary": [
@@ -181,118 +270,209 @@
         "time": "09:26:19",
         "signal_id": "1224",
         "text": "ACTIVE"
+      },
+      {
+        "time": "10:56:20",
+        "signal_id": "1226",
+        "text": "PERFECT SNIPER ENTRY ON THIS SHORT"
+      },
+      {
+        "time": "11:11:20",
+        "signal_id": "1227",
+        "text": "Active"
+      },
+      {
+        "time": "11:56:20",
+        "signal_id": "1228",
+        "text": "PERFECT SNIPER ENTRY ON THIS TRADE"
+      },
+      {
+        "time": "12:41:20",
+        "signal_id": "1229",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "12:41:20",
+        "signal_id": "1229",
+        "text": "SL HIT"
+      },
+      {
+        "time": "16:41:22",
+        "signal_id": "1214",
+        "text": "PERFECT SNIPER ENTRY ON THIS LIMIT TRADE"
       }
     ]
   },
   "what_we_observed": {
-    "deals_today": 56,
+    "deals_today": 204,
     "entries_by_magic": {
-      "20260833": 8,
-      "20260827": 8,
-      "20260853": 8,
-      "20260858": 2,
-      "20260859": 2
+      "20260833": 16,
+      "20260827": 16,
+      "20260853": 16,
+      "20260858": 4,
+      "20260859": 4,
+      "20260825": 8,
+      "20260862": 2,
+      "20260854": 2,
+      "20260856": 8,
+      "20260861": 2,
+      "20260855": 6,
+      "20260839": 9,
+      "20260857": 9
     },
     "open_positions": []
   },
   "ea_mechanics": {
     "fvgsizegate_858": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "FVG_NO_MATCH_SKIP": 8,
-      "HIS_BREAKEVEN_NOMATCH": 5,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "FVG_NO_MATCH_SKIP": 13,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 13,
+      "HIS_BREAKEVEN_NOMATCH": 6,
       "FVG_TOO_SMALL_SKIP": 4,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "LIMIT_PLACED": 4,
       "AMEND_NOMATCH": 3,
-      "LIMIT_PLACED": 2,
-      "FVG_GATE_PASS": 1
+      "FVG_GATE_PASS": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
     },
     "fvgsizegate_tol9_861": {
-      "PARTIAL_CLOSE_NO_CANCEL": 2
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 34,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 9,
+      "FVG_NO_MATCH_SKIP": 5,
+      "LIMIT_PLACED": 2,
+      "HIS_BREAKEVEN_NOMATCH": 1,
+      "FVG_GATE_PASS": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
     },
     "fvgsizegate_trail8_859": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "FVG_NO_MATCH_SKIP": 8,
-      "HIS_BREAKEVEN_NOMATCH": 5,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "FVG_NO_MATCH_SKIP": 13,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 13,
+      "HIS_BREAKEVEN_NOMATCH": 6,
       "FVG_TOO_SMALL_SKIP": 4,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "LIMIT_PLACED": 4,
       "AMEND_NOMATCH": 3,
-      "LIMIT_PLACED": 2,
-      "FVG_GATE_PASS": 1
+      "FVG_GATE_PASS": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
     },
     "fvgsizegate_trail8_tol9_862": {
-      "PARTIAL_CLOSE_NO_CANCEL": 2
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 34,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 9,
+      "FVG_NO_MATCH_SKIP": 5,
+      "LIMIT_PLACED": 2,
+      "HIS_BREAKEVEN_NOMATCH": 1,
+      "FVG_GATE_PASS": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
     },
     "leg4off": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "LIMIT_PLACED": 8,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "HIS_BREAKEVEN_NOMATCH": 4,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "LIMIT_PLACED": 16,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 5,
       "AMEND_NOMATCH": 3,
-      "HIS_BREAKEVEN": 1
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "HIS_BREAKEVEN": 1,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "trail8_853": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "LIMIT_PLACED": 8,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "HIS_BREAKEVEN_NOMATCH": 4,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "LIMIT_PLACED": 16,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 5,
       "AMEND_NOMATCH": 3,
-      "HIS_BREAKEVEN": 1
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "HIS_BREAKEVEN": 1,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "trail8_856": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
       "HOUR_FILTER_SKIP": 13,
-      "HIS_BREAKEVEN_NOMATCH": 5,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "LIMIT_PLACED": 10,
+      "HIS_BREAKEVEN_NOMATCH": 6,
+      "AMEND_NOMATCH": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "trail8_857": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "HIS_BREAKEVEN_NOMATCH": 5,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "LIMIT_PLACED": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 6,
       "HOUR_FILTER_SKIP": 4,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "AMEND_NOMATCH": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "trail8_lossstop50_854": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
       "HOUR_FILTER_SKIP": 13,
-      "HIS_BREAKEVEN_NOMATCH": 5,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "HIS_BREAKEVEN_NOMATCH": 6,
+      "LIMIT_PLACED": 4,
+      "AMEND_NOMATCH": 3,
+      "DAILY_LOSS_STOP_SKIP": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "trail8_lossstop50_855": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "HIS_BREAKEVEN_NOMATCH": 5,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "LIMIT_PLACED": 9,
+      "HIS_BREAKEVEN_NOMATCH": 6,
       "HOUR_FILTER_SKIP": 4,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "AMEND_NOMATCH": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1,
+      "DAILY_LOSS_STOP_SKIP": 1
     },
     "v12": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
       "HOUR_FILTER_SKIP": 13,
-      "HIS_BREAKEVEN_NOMATCH": 5,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "LIMIT_PLACED": 10,
+      "HIS_BREAKEVEN_NOMATCH": 6,
+      "AMEND_NOMATCH": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "v5revival": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "LIMIT_PLACED": 8,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "HIS_BREAKEVEN_NOMATCH": 4,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "LIMIT_PLACED": 16,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 5,
       "AMEND_NOMATCH": 3,
-      "HIS_BREAKEVEN": 1
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "HIS_BREAKEVEN": 1,
+      "ZONE_TOO_NARROW_SKIP": 1
     },
     "v5revival_hourfilter": {
-      "PARTIAL_CLOSE_NO_CANCEL": 23,
-      "TREND_COUNTER_SKIP": 9,
-      "HIS_BREAKEVEN_NOMATCH": 5,
+      "NEWS_AVOID_DELAY": 170,
+      "PARTIAL_CLOSE_NO_CANCEL": 55,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 12,
+      "LIMIT_PLACED": 12,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 6,
       "HOUR_FILTER_SKIP": 4,
-      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
-      "AMEND_NOMATCH": 3
+      "AMEND_NOMATCH": 3,
+      "HIS_PARTIAL_CLOSE_CANCEL": 2,
+      "ZONE_TOO_NARROW_SKIP": 1
     }
   },
   "recommendations": [
