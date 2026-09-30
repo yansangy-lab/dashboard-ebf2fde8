@@ -1,0 +1,310 @@
+{
+  "generated_utc": "2026-09-30T10:06:28.654798+00:00",
+  "local_date": "2026-09-30",
+  "market": {
+    "open": 4177.19,
+    "high": 4202.16,
+    "low": 4165.5,
+    "last": 4188.48,
+    "range_pips": 366.6,
+    "net_pips": 112.9
+  },
+  "what_he_posted": {
+    "signal_count": 13,
+    "direction_split": {
+      "buy limit": 7,
+      "sell": 3,
+      "buy": 3
+    },
+    "signals": [
+      {
+        "time": "04:11:18",
+        "id": 1214,
+        "direction": "buy limit",
+        "entry_low": 4146.0,
+        "entry_high": 4152.0,
+        "sl": 4145.0,
+        "tp1": 4155.0,
+        "tp2": 4159.0,
+        "tp3": 4164.0
+      },
+      {
+        "time": "04:11:18",
+        "id": 1215,
+        "direction": "buy limit",
+        "entry_low": 4139.0,
+        "entry_high": 4145.0,
+        "sl": 4138.0,
+        "tp1": 4148.0,
+        "tp2": 4152.0,
+        "tp3": 4157.0
+      },
+      {
+        "time": "04:11:18",
+        "id": 1216,
+        "direction": "sell",
+        "entry_low": 4176.0,
+        "entry_high": 4181.0,
+        "sl": 4182.0,
+        "tp1": 4174.0,
+        "tp2": 4171.0,
+        "tp3": 4167.0
+      },
+      {
+        "time": "04:41:18",
+        "id": 1217,
+        "direction": "buy",
+        "entry_low": 4175.0,
+        "entry_high": 4181.0,
+        "sl": 4174.0,
+        "tp1": 4184.0,
+        "tp2": 4188.0,
+        "tp3": 4193.0
+      },
+      {
+        "time": "05:11:18",
+        "id": 1218,
+        "direction": "buy limit",
+        "entry_low": 4168.0,
+        "entry_high": 4174.0,
+        "sl": 4167.0,
+        "tp1": 4177.0,
+        "tp2": 4181.0,
+        "tp3": 4186.0
+      },
+      {
+        "time": "05:56:18",
+        "id": 1219,
+        "direction": "buy",
+        "entry_low": 4169.0,
+        "entry_high": 4175.0,
+        "sl": 4168.0,
+        "tp1": 4178.0,
+        "tp2": 4182.0,
+        "tp3": 4187.0
+      },
+      {
+        "time": "06:26:18",
+        "id": 1220,
+        "direction": "buy limit",
+        "entry_low": 4168.0,
+        "entry_high": 4174.0,
+        "sl": 4167.0,
+        "tp1": 4177.0,
+        "tp2": 4181.0,
+        "tp3": 4186.0
+      },
+      {
+        "time": "06:56:18",
+        "id": 1221,
+        "direction": "sell",
+        "entry_low": 4198.0,
+        "entry_high": 4205.0,
+        "sl": 4206.0,
+        "tp1": 4194.0,
+        "tp2": 4190.0,
+        "tp3": 4185.0
+      },
+      {
+        "time": "08:41:19",
+        "id": 1222,
+        "direction": "buy",
+        "entry_low": 4193.0,
+        "entry_high": 4198.0,
+        "sl": 4192.0,
+        "tp1": 4200.0,
+        "tp2": 4203.0,
+        "tp3": 4207.0
+      },
+      {
+        "time": "08:56:19",
+        "id": 1223,
+        "direction": "buy limit",
+        "entry_low": 4191.0,
+        "entry_high": 4196.0,
+        "sl": 4190.0,
+        "tp1": 4198.0,
+        "tp2": 4201.0,
+        "tp3": 4205.0
+      },
+      {
+        "time": "09:11:19",
+        "id": 1224,
+        "direction": "buy limit",
+        "entry_low": 4179.0,
+        "entry_high": 4185.0,
+        "sl": 4178.0,
+        "tp1": 4188.0,
+        "tp2": 4192.0,
+        "tp3": 4197.0
+      },
+      {
+        "time": "09:11:19",
+        "id": 1225,
+        "direction": "buy limit",
+        "entry_low": 4169.0,
+        "entry_high": 4175.0,
+        "sl": 4168.0,
+        "tp1": 4178.0,
+        "tp2": 4182.0,
+        "tp3": 4187.0
+      },
+      {
+        "time": "09:11:19",
+        "id": 1226,
+        "direction": "sell",
+        "entry_low": 4194.0,
+        "entry_high": 4200.0,
+        "sl": 4201.0,
+        "tp1": 4191.0,
+        "tp2": 4187.0,
+        "tp3": 4182.0
+      }
+    ],
+    "commentary": [
+      {
+        "time": "05:41:18",
+        "signal_id": "1218",
+        "text": "SL HIT"
+      },
+      {
+        "time": "06:56:18",
+        "signal_id": "1219",
+        "text": "PERFECT SNIPER ENTRY ON THIS TRADE"
+      },
+      {
+        "time": "08:56:19",
+        "signal_id": "1223",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "09:26:19",
+        "signal_id": "1224",
+        "text": "ACTIVE"
+      }
+    ]
+  },
+  "what_we_observed": {
+    "deals_today": 56,
+    "entries_by_magic": {
+      "20260833": 8,
+      "20260827": 8,
+      "20260853": 8,
+      "20260858": 2,
+      "20260859": 2
+    },
+    "open_positions": []
+  },
+  "ea_mechanics": {
+    "fvgsizegate_858": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "FVG_NO_MATCH_SKIP": 8,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 4,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3,
+      "LIMIT_PLACED": 2,
+      "FVG_GATE_PASS": 1
+    },
+    "fvgsizegate_tol9_861": {
+      "PARTIAL_CLOSE_NO_CANCEL": 2
+    },
+    "fvgsizegate_trail8_859": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "FVG_NO_MATCH_SKIP": 8,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 4,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3,
+      "LIMIT_PLACED": 2,
+      "FVG_GATE_PASS": 1
+    },
+    "fvgsizegate_trail8_tol9_862": {
+      "PARTIAL_CLOSE_NO_CANCEL": 2
+    },
+    "leg4off": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "LIMIT_PLACED": 8,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "HIS_BREAKEVEN_NOMATCH": 4,
+      "AMEND_NOMATCH": 3,
+      "HIS_BREAKEVEN": 1
+    },
+    "trail8_853": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "LIMIT_PLACED": 8,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "HIS_BREAKEVEN_NOMATCH": 4,
+      "AMEND_NOMATCH": 3,
+      "HIS_BREAKEVEN": 1
+    },
+    "trail8_856": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "HOUR_FILTER_SKIP": 13,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    },
+    "trail8_857": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HOUR_FILTER_SKIP": 4,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    },
+    "trail8_lossstop50_854": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "HOUR_FILTER_SKIP": 13,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    },
+    "trail8_lossstop50_855": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HOUR_FILTER_SKIP": 4,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    },
+    "v12": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "HOUR_FILTER_SKIP": 13,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    },
+    "v5revival": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "LIMIT_PLACED": 8,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "HIS_BREAKEVEN_NOMATCH": 4,
+      "AMEND_NOMATCH": 3,
+      "HIS_BREAKEVEN": 1
+    },
+    "v5revival_hourfilter": {
+      "PARTIAL_CLOSE_NO_CANCEL": 23,
+      "TREND_COUNTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 5,
+      "HOUR_FILTER_SKIP": 4,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 4,
+      "AMEND_NOMATCH": 3
+    }
+  },
+  "recommendations": [
+    {
+      "title": "Watch 861/862 vs 858/859 (FVG tolerance 9p vs 15p)",
+      "detail": "Forks 861/862 (tolerance tightened to 9p, Synergy's own stated real precision) attached 2026-09-30. Real backtest evidence favors 9p on every axis: avg +12.92p vs +5.21p, WR 69.9% vs 65.6%, DD 5.56% vs 7.30% (real $10k basis). 858/859 (15p) run unmodified as the control. No action needed yet -- just watch real data accumulate before considering retiring 858/859.",
+      "added": "2026-09-30"
+    },
+    {
+      "title": "Watch 860 vs 808 (trail-past-target@5p)",
+      "detail": "Fork 860 (trail-past-target enabled, 5p trail) attached 2026-09-29. Real backtest evidence: +294.9p over the fixed-TP baseline, the only exit-management idea (of 5 tested) that beat doing nothing -- though noisy per-trade (85/341 trades worse, 37 better, net still positive). 808 runs unmodified as the control. No action needed yet -- watch real data accumulate.",
+      "added": "2026-09-30"
+    }
+  ]
+}
