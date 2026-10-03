@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-03T14:26:34.622796+00:00",
+  "generated_utc": "2026-10-03T14:29:03.775200+00:00",
   "local_date": "2026-10-03",
   "market": {
     "open": 4147.64,
@@ -29,9 +29,10 @@
       "updated": "2026-10-03"
     },
     {
-      "title": "Watch 860 vs 808 (trail-past-target@5p)",
-      "detail": "Fork 860 (trail-past-target enabled, 5p trail) attached 2026-09-29. Real backtest evidence: +294.9p over the fixed-TP baseline, the only exit-management idea (of 5 tested) that beat doing nothing -- though noisy per-trade (85/341 trades worse, 37 better, net still positive). 808 runs unmodified as the control. No action needed yet -- watch real data accumulate.",
-      "added": "2026-09-30"
+      "title": "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample",
+      "detail": "Checked 2026-10-03. TC trades rarely -- only 4 real signals total since July (09-11, 09-23, 09-28, 10-01). 860 wasn't attached until 09-29, so it could only ever see the last 1-2 of those; it caught exactly one (2026-10-01, entry 4152.66). That trade hit its stop-loss directly ([sl 4160.92], -83.2p) without ever reaching the point where trail-past-target would arm -- 808 (control) shows the IDENTICAL entry/exit/loss on the same real trade, because both forks are just reporting the same plain stop-out; the mechanism 860 exists to test never got a chance to engage at all. This is not 'too thin to tell' in the usual noisy-small-sample sense -- it's zero real evidence either way, because the one trade available couldn't have differentiated the two designs regardless of outcome. No action -- just keep waiting for TC's next real signal, and specifically one that reaches its TP1-equivalent arm point, before this comparison means anything.",
+      "added": "2026-09-30",
+      "updated": "2026-10-03"
     }
   ]
 }
