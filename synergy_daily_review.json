@@ -1,13 +1,8 @@
 {
-  "generated_utc": "2026-10-03T18:00:01.322605+00:00",
-  "local_date": "2026-10-03",
+  "generated_utc": "2026-10-04T18:00:01.490001+00:00",
+  "local_date": "2026-10-04",
   "market": {
-    "open": 4147.64,
-    "high": 4148.44,
-    "low": 4135.79,
-    "last": 4139.15,
-    "range_pips": 126.5,
-    "net_pips": -84.9
+    "error": "no bars"
   },
   "what_he_posted": {
     "signal_count": 0,
