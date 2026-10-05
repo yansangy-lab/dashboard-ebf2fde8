@@ -1,21 +1,651 @@
 {
-  "generated_utc": "2026-10-04T18:00:01.490001+00:00",
-  "local_date": "2026-10-04",
+  "generated_utc": "2026-10-05T18:00:01.575947+00:00",
+  "local_date": "2026-10-05",
   "market": {
-    "error": "no bars"
+    "open": 4142.14,
+    "high": 4170.34,
+    "low": 4123.11,
+    "last": 4137.03,
+    "range_pips": 472.3,
+    "net_pips": -51.1
   },
   "what_he_posted": {
-    "signal_count": 0,
-    "direction_split": {},
-    "signals": [],
-    "commentary": []
+    "signal_count": 26,
+    "direction_split": {
+      "sell limit": 3,
+      "buy": 8,
+      "buy limit": 4,
+      "sell": 11
+    },
+    "signals": [
+      {
+        "time": "04:17:05",
+        "id": 1279,
+        "direction": "sell limit",
+        "entry_low": 4141.0,
+        "entry_high": 4146.0,
+        "sl": 4147.0,
+        "tp1": 4139.0,
+        "tp2": 4136.0,
+        "tp3": 4132.0
+      },
+      {
+        "time": "04:32:05",
+        "id": 1280,
+        "direction": "buy",
+        "entry_low": 4120.0,
+        "entry_high": 4125.0,
+        "sl": 4119.0,
+        "tp1": 4127.0,
+        "tp2": 4130.0,
+        "tp3": 4134.0
+      },
+      {
+        "time": "04:47:05",
+        "id": 1281,
+        "direction": "buy limit",
+        "entry_low": 4124.0,
+        "entry_high": 4129.0,
+        "sl": 4123.0,
+        "tp1": 4131.0,
+        "tp2": 4134.0,
+        "tp3": 4138.0
+      },
+      {
+        "time": "04:47:05",
+        "id": 1282,
+        "direction": "buy",
+        "entry_low": 4130.0,
+        "entry_high": 4133.0,
+        "sl": 4129.0,
+        "tp1": 4135.0,
+        "tp2": 4138.0,
+        "tp3": 4142.0
+      },
+      {
+        "time": "05:47:05",
+        "id": 1283,
+        "direction": "sell",
+        "entry_low": 4141.0,
+        "entry_high": 4146.0,
+        "sl": 4147.0,
+        "tp1": 4139.0,
+        "tp2": 4136.0,
+        "tp3": 4132.0
+      },
+      {
+        "time": "06:02:05",
+        "id": 1284,
+        "direction": "buy",
+        "entry_low": 4137.0,
+        "entry_high": 4142.0,
+        "sl": 4136.0,
+        "tp1": 4144.0,
+        "tp2": 4147.0,
+        "tp3": 4151.0
+      },
+      {
+        "time": "06:02:34",
+        "id": 1285,
+        "direction": "sell",
+        "entry_low": 4142.0,
+        "entry_high": 4147.0,
+        "sl": 4148.0,
+        "tp1": 4139.0,
+        "tp2": 4135.0,
+        "tp3": 4130.0
+      },
+      {
+        "time": "06:17:05",
+        "id": 1286,
+        "direction": "sell limit",
+        "entry_low": 4148.0,
+        "entry_high": 4153.0,
+        "sl": 4154.0,
+        "tp1": 4146.0,
+        "tp2": 4143.0,
+        "tp3": 4139.0
+      },
+      {
+        "time": "06:17:05",
+        "id": 1287,
+        "direction": "sell",
+        "entry_low": 4154.0,
+        "entry_high": 4160.0,
+        "sl": 4161.0,
+        "tp1": 4151.0,
+        "tp2": 4147.0,
+        "tp3": 4142.0
+      },
+      {
+        "time": "06:32:05",
+        "id": 1288,
+        "direction": "sell",
+        "entry_low": 4155.0,
+        "entry_high": 4161.0,
+        "sl": 4162.0,
+        "tp1": 4152.0,
+        "tp2": 4148.0,
+        "tp3": 4143.0
+      },
+      {
+        "time": "07:02:05",
+        "id": 1289,
+        "direction": "sell",
+        "entry_low": 4157.0,
+        "entry_high": 4163.0,
+        "sl": 4164.0,
+        "tp1": 4154.0,
+        "tp2": 4150.0,
+        "tp3": 4145.0
+      },
+      {
+        "time": "07:17:05",
+        "id": 1290,
+        "direction": "sell",
+        "entry_low": 4157.0,
+        "entry_high": 4160.0,
+        "sl": 4164.0,
+        "tp1": 4153.0,
+        "tp2": 4150.0,
+        "tp3": 4146.0
+      },
+      {
+        "time": "08:02:04",
+        "id": 1291,
+        "direction": "buy",
+        "entry_low": 4152.0,
+        "entry_high": 4158.0,
+        "sl": 4151.0,
+        "tp1": 4161.0,
+        "tp2": 4165.0,
+        "tp3": 4170.0
+      },
+      {
+        "time": "08:02:04",
+        "id": 1292,
+        "direction": "sell",
+        "entry_low": 4163.0,
+        "entry_high": 4166.0,
+        "sl": 4168.0,
+        "tp1": 4157.0,
+        "tp2": 4152.0,
+        "tp3": 4146.0
+      },
+      {
+        "time": "08:16:10",
+        "id": 1293,
+        "direction": "sell",
+        "entry_low": 4164.0,
+        "entry_high": 4168.0,
+        "sl": 4173.0,
+        "tp1": 4151.0,
+        "tp2": 4157.0,
+        "tp3": 4150.0
+      },
+      {
+        "time": "08:47:04",
+        "id": 1294,
+        "direction": "buy limit",
+        "entry_low": 4148.0,
+        "entry_high": 4154.0,
+        "sl": 4147.0,
+        "tp1": 4157.0,
+        "tp2": 4161.0,
+        "tp3": 4166.0
+      },
+      {
+        "time": "08:47:04",
+        "id": 1295,
+        "direction": "buy limit",
+        "entry_low": 4134.0,
+        "entry_high": 4140.0,
+        "sl": 4133.0,
+        "tp1": 4143.0,
+        "tp2": 4147.0,
+        "tp3": 4152.0
+      },
+      {
+        "time": "08:47:04",
+        "id": 1296,
+        "direction": "sell",
+        "entry_low": 4164.0,
+        "entry_high": 4168.0,
+        "sl": 4173.0,
+        "tp1": 4161.0,
+        "tp2": 4157.0,
+        "tp3": 4150.0
+      },
+      {
+        "time": "09:02:04",
+        "id": 1297,
+        "direction": "buy",
+        "entry_low": 4158.0,
+        "entry_high": 4164.0,
+        "sl": 4157.0,
+        "tp1": 4167.0,
+        "tp2": 4171.0,
+        "tp3": 4176.0
+      },
+      {
+        "time": "09:02:04",
+        "id": 1298,
+        "direction": "sell limit",
+        "entry_low": 4178.0,
+        "entry_high": 4185.0,
+        "sl": 4190.0,
+        "tp1": 4170.0,
+        "tp2": 4165.0,
+        "tp3": 4160.0
+      },
+      {
+        "time": "09:47:05",
+        "id": 1299,
+        "direction": "buy",
+        "entry_low": 4151.0,
+        "entry_high": 4156.0,
+        "sl": 4150.0,
+        "tp1": 4159.0,
+        "tp2": 4163.0,
+        "tp3": 4168.0
+      },
+      {
+        "time": "10:47:05",
+        "id": 1300,
+        "direction": "sell",
+        "entry_low": 4160.0,
+        "entry_high": 4168.0,
+        "sl": 4172.0,
+        "tp1": 4153.0,
+        "tp2": 4148.0,
+        "tp3": 4140.0
+      },
+      {
+        "time": "11:44:13",
+        "id": 1301,
+        "direction": "sell",
+        "entry_low": 4161.0,
+        "entry_high": 4168.0,
+        "sl": 4172.0,
+        "tp1": 4158.0,
+        "tp2": 4153.0,
+        "tp3": 4147.0
+      },
+      {
+        "time": "13:16:14",
+        "id": 1302,
+        "direction": "buy",
+        "entry_low": 4147.0,
+        "entry_high": 4153.0,
+        "sl": 4146.0,
+        "tp1": 4156.0,
+        "tp2": 4160.0,
+        "tp3": 4165.0
+      },
+      {
+        "time": "13:44:13",
+        "id": 1303,
+        "direction": "buy limit",
+        "entry_low": 4138.0,
+        "entry_high": 4144.0,
+        "sl": 4137.0,
+        "tp1": 4147.0,
+        "tp2": 4151.0,
+        "tp3": 4156.0
+      },
+      {
+        "time": "13:47:31",
+        "id": 1304,
+        "direction": "buy",
+        "entry_low": 4128.0,
+        "entry_high": 4134.0,
+        "sl": 4127.0,
+        "tp1": 4137.0,
+        "tp2": 4141.0,
+        "tp3": 4146.0
+      }
+    ],
+    "commentary": [
+      {
+        "time": "04:17:05",
+        "signal_id": "1277",
+        "text": "PERFECT SNIPER ENTRY ON THIS SETUP"
+      },
+      {
+        "time": "04:47:05",
+        "signal_id": "1280",
+        "text": "BEAUTIFUL ENTRY ON THIS TP3 TRADE"
+      },
+      {
+        "time": "05:17:05",
+        "signal_id": "1279",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "06:02:05",
+        "signal_id": "1283",
+        "text": "PERFECT SNIPER RE-ENTRY ON THIS SHORT"
+      },
+      {
+        "time": "06:17:05",
+        "signal_id": "1286",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "06:17:05",
+        "signal_id": "1286",
+        "text": "SL HIT"
+      },
+      {
+        "time": "07:17:05",
+        "signal_id": "1289",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "08:16:29",
+        "signal_id": "1291",
+        "text": "PERFECT SNIPER ENTRY ON THIS TRADE"
+      },
+      {
+        "time": "08:32:04",
+        "signal_id": "1282",
+        "text": "PERFECT SNIPER ENTRY TP3 TRADE"
+      },
+      {
+        "time": "10:59:12",
+        "signal_id": "1300",
+        "text": "Active"
+      },
+      {
+        "time": "11:31:58",
+        "signal_id": "1299",
+        "text": "PERFECT SNIPER ENTRY ON THIS TRADE"
+      },
+      {
+        "time": "11:44:45",
+        "signal_id": "1294",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "12:44:13",
+        "signal_id": "1294",
+        "text": "ANOTHER PERFECT ENTRY ON THIS TEXTBOOK IOF SETUP TP3 TRADE"
+      },
+      {
+        "time": "13:44:13",
+        "signal_id": "1302",
+        "text": "SL HIT"
+      },
+      {
+        "time": "13:44:13",
+        "signal_id": "1295",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "13:45:35",
+        "signal_id": "1303",
+        "text": "SL HIT"
+      },
+      {
+        "time": "13:46:20",
+        "signal_id": "1295",
+        "text": "SL HIT"
+      },
+      {
+        "time": "15:44:14",
+        "signal_id": "1281",
+        "text": "PERFECT ENTRY ON THIS TEXTBOOK IOF SETUP"
+      }
+    ]
   },
   "what_we_observed": {
-    "deals_today": 0,
-    "entries_by_magic": {},
+    "deals_today": 132,
+    "entries_by_magic": {
+      "20260853": 14,
+      "20260827": 14,
+      "20260858": 6,
+      "20260859": 6,
+      "20260862": 4,
+      "20260861": 4,
+      "20260854": 2,
+      "20260863": 4,
+      "20260825": 4,
+      "20260856": 4,
+      "20260870": 4
+    },
     "open_positions": []
   },
-  "ea_mechanics": {},
+  "ea_mechanics": {
+    "863": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "HOUR_FILTER_SKIP": 16,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "LIMIT_PLACED": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "865": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "HOUR_FILTER_SKIP": 19,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "866": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "867": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "868": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "870": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "HOUR_FILTER_SKIP": 16,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "LIMIT_PLACED": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "871": {
+      "PARTIAL_CLOSE_NO_CANCEL": 54,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "AMEND_NOMATCH": 4,
+      "HIS_CANCEL_NOMATCH": 2,
+      "HOUR_FILTER_SKIP": 2,
+      "STALE_SKIP": 1
+    },
+    "fvgsizegate_858": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "FVG_NO_MATCH_SKIP": 13,
+      "FVG_TOO_SMALL_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "AMEND_NOMATCH": 5,
+      "FVG_GATE_PASS": 4,
+      "LIMIT_PLACED": 4,
+      "HIS_CANCEL_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "STOP_PLACED": 2
+    },
+    "fvgsizegate_tol9_861": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "FVG_NO_MATCH_SKIP": 19,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "AMEND_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 5,
+      "HIS_CANCEL_NOMATCH": 2,
+      "FVG_GATE_PASS": 2,
+      "LIMIT_PLACED": 2,
+      "STOP_PLACED": 2
+    },
+    "fvgsizegate_trail8_859": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "FVG_NO_MATCH_SKIP": 13,
+      "FVG_TOO_SMALL_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "AMEND_NOMATCH": 5,
+      "FVG_GATE_PASS": 4,
+      "LIMIT_PLACED": 4,
+      "HIS_CANCEL_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "STOP_PLACED": 2
+    },
+    "fvgsizegate_trail8_tol9_862": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "FVG_NO_MATCH_SKIP": 19,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "AMEND_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 5,
+      "HIS_CANCEL_NOMATCH": 2,
+      "FVG_GATE_PASS": 2,
+      "LIMIT_PLACED": 2,
+      "STOP_PLACED": 2
+    },
+    "trail8_853": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "LIMIT_PLACED": 16,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "trail8_856": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "HOUR_FILTER_SKIP": 16,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "LIMIT_PLACED": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "trail8_857": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "trail8_lossstop50_854": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "HOUR_FILTER_SKIP": 16,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "LIMIT_PLACED": 2,
+      "DAILY_LOSS_STOP_SKIP": 2
+    },
+    "trail8_lossstop50_855": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    },
+    "v12": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "HOUR_FILTER_SKIP": 16,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "LIMIT_PLACED": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "v5revival": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 18,
+      "LIMIT_PLACED": 16,
+      "TREND_COUNTER_SKIP": 10,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 4,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2,
+      "STOP_PLACED": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "v5revival_hourfilter": {
+      "PARTIAL_CLOSE_NO_CANCEL": 63,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 19,
+      "TREND_COUNTER_SKIP": 10,
+      "HOUR_FILTER_SKIP": 9,
+      "HIS_BREAKEVEN_NOMATCH": 9,
+      "ZONE_TOO_NARROW_SKIP": 5,
+      "AMEND_NOMATCH": 5,
+      "MTF_MISMATCH_SKIP": 2,
+      "HIS_CANCEL_NOMATCH": 2
+    }
+  },
   "recommendations": [
     {
       "title": "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
