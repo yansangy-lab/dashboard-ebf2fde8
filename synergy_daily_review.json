@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-09T16:57:33.071108+00:00",
+  "generated_utc": "2026-10-09T18:00:01.812396+00:00",
   "local_date": "2026-10-09",
   "top": {
-    "headline": "Market +582.6p -- 140 real deals today -- 1 fork(s) beat their control today, 10 didn't",
+    "headline": "Market +622.8p -- 140 real deals today -- 1 fork(s) beat their control today, 10 didn't",
     "decisions": [
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
       "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample"
@@ -222,9 +222,9 @@
     "open": 4133.21,
     "high": 4207.5,
     "low": 4131.59,
-    "last": 4191.47,
+    "last": 4195.49,
     "range_pips": 759.1,
-    "net_pips": 582.6
+    "net_pips": 622.8
   },
   "what_he_posted": {
     "signal_count": 17,
