@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-12T17:52:30.989054+00:00",
+  "generated_utc": "2026-10-12T18:00:02.184539+00:00",
   "local_date": "2026-10-12",
   "top": {
-    "headline": "Market -185.9p -- 99 real deals today -- 3 fork(s) beat their control today, 5 didn't",
+    "headline": "Market -176.2p -- 99 real deals today -- 3 fork(s) beat their control today, 5 didn't",
     "decisions": [
       "871 (wick-confirm filter) has placed ZERO orders since attach -- cause found and FIXED in source 2026-10-12, NEEDS RE-ATTACH",
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
@@ -223,9 +223,9 @@
     "open": 4188.32,
     "high": 4217.14,
     "low": 4154.51,
-    "last": 4169.73,
+    "last": 4170.7,
     "range_pips": 626.3,
-    "net_pips": -185.9
+    "net_pips": -176.2
   },
   "what_he_posted": {
     "signal_count": 13,
@@ -458,17 +458,17 @@
       {
         "ticket": 478967448,
         "magic": 20260808,
-        "profit_usd": -5.11
+        "profit_usd": -6.1
       },
       {
         "ticket": 478967453,
         "magic": 20260860,
-        "profit_usd": -4.98
+        "profit_usd": -5.97
       },
       {
         "ticket": 478967454,
         "magic": 20260864,
-        "profit_usd": -4.98
+        "profit_usd": -5.97
       }
     ]
   },
