@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-11T18:00:01.992830+00:00",
-  "local_date": "2026-10-11",
+  "generated_utc": "2026-10-12T17:40:43.874011+00:00",
+  "local_date": "2026-10-12",
   "top": {
-    "headline": "0 real deals today",
+    "headline": "Market -190.0p -- 99 real deals today -- 3 fork(s) beat their control today, 5 didn't",
     "decisions": [
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
       "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample"
@@ -13,27 +13,27 @@
       "label": "853 Trail8 vs 827",
       "fork_magic": 20260853,
       "control_magic": 20260827,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 140,
-      "fork_total_pips": -1239.0,
-      "control_total_n": 354,
-      "control_total_pips": -2578.1
+      "fork_today_n": 8,
+      "fork_today_pips": 146.2,
+      "control_today_n": 8,
+      "control_today_pips": 133.6,
+      "fork_total_n": 148,
+      "fork_total_pips": -1092.8,
+      "control_total_n": 362,
+      "control_total_pips": -2444.5
     },
     {
       "label": "854 Trail8+LossStop vs 825",
       "fork_magic": 20260854,
       "control_magic": 20260825,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 72,
-      "fork_total_pips": -717.5,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "fork_today_n": 2,
+      "fork_today_pips": -15.7,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
+      "fork_total_n": 74,
+      "fork_total_pips": -733.2,
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "855 Trail8+LossStop vs 839",
@@ -52,14 +52,14 @@
       "label": "856 Trail8 vs 825",
       "fork_magic": 20260856,
       "control_magic": 20260825,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 98,
-      "fork_total_pips": -1101.9,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "fork_today_n": 2,
+      "fork_today_pips": -15.7,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
+      "fork_total_n": 100,
+      "fork_total_pips": -1117.6,
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "857 Trail8 vs 839",
@@ -78,66 +78,66 @@
       "label": "858 FvgSizeGate vs 825",
       "fork_magic": 20260858,
       "control_magic": 20260825,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 46,
-      "fork_total_pips": -358.8,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "fork_today_n": 6,
+      "fork_today_pips": -170.9,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
+      "fork_total_n": 52,
+      "fork_total_pips": -529.7,
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "859 FvgSizeGate Trail8 vs 858",
       "fork_magic": 20260859,
       "control_magic": 20260858,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 46,
-      "fork_total_pips": -450.8,
-      "control_total_n": 46,
-      "control_total_pips": -358.8
+      "fork_today_n": 6,
+      "fork_today_pips": -169.5,
+      "control_today_n": 6,
+      "control_today_pips": -170.9,
+      "fork_total_n": 52,
+      "fork_total_pips": -620.3,
+      "control_total_n": 52,
+      "control_total_pips": -529.7
     },
     {
       "label": "861 FvgSizeGate Tol9 vs 858",
       "fork_magic": 20260861,
       "control_magic": 20260858,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 28,
-      "fork_total_pips": -267.6,
-      "control_total_n": 46,
-      "control_total_pips": -358.8
+      "fork_today_n": 6,
+      "fork_today_pips": -170.9,
+      "control_today_n": 6,
+      "control_today_pips": -170.9,
+      "fork_total_n": 34,
+      "fork_total_pips": -438.5,
+      "control_total_n": 52,
+      "control_total_pips": -529.7
     },
     {
       "label": "862 FvgSizeGate Trail8 Tol9 vs 859",
       "fork_magic": 20260862,
       "control_magic": 20260859,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 28,
-      "fork_total_pips": -392.4,
-      "control_total_n": 46,
-      "control_total_pips": -450.8
+      "fork_today_n": 6,
+      "fork_today_pips": -169.5,
+      "control_today_n": 6,
+      "control_today_pips": -169.5,
+      "fork_total_n": 34,
+      "fork_total_pips": -561.9,
+      "control_total_n": 52,
+      "control_total_pips": -620.3
     },
     {
       "label": "863 TPLadder vs 825",
       "fork_magic": 20260863,
       "control_magic": 20260825,
-      "fork_today_n": 0,
-      "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
-      "fork_total_n": 30,
-      "fork_total_pips": -421.8,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "fork_today_n": 2,
+      "fork_today_pips": 32.4,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
+      "fork_total_n": 32,
+      "fork_total_pips": -389.4,
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "865 HourFilter1720 vs 825",
@@ -145,12 +145,12 @@
       "control_magic": 20260825,
       "fork_today_n": 0,
       "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
       "fork_total_n": 6,
       "fork_total_pips": -253.3,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "866 HourFilter1720 vs 839",
@@ -171,12 +171,12 @@
       "control_magic": 20260827,
       "fork_today_n": 0,
       "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
+      "control_today_n": 8,
+      "control_today_pips": 133.6,
       "fork_total_n": 6,
       "fork_total_pips": -201.5,
-      "control_total_n": 354,
-      "control_total_pips": -2578.1
+      "control_total_n": 362,
+      "control_total_pips": -2444.5
     },
     {
       "label": "868 HourFilter1720 Leg4Off vs 827",
@@ -184,12 +184,12 @@
       "control_magic": 20260827,
       "fork_today_n": 0,
       "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
+      "control_today_n": 8,
+      "control_today_pips": 133.6,
       "fork_total_n": 6,
       "fork_total_pips": -202.2,
-      "control_total_n": 354,
-      "control_total_pips": -2578.1
+      "control_total_n": 362,
+      "control_total_pips": -2444.5
     },
     {
       "label": "870 Ratchet916 LF200 vs 825",
@@ -197,12 +197,12 @@
       "control_magic": 20260825,
       "fork_today_n": 0,
       "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
       "fork_total_n": 30,
       "fork_total_pips": -1034.5,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     },
     {
       "label": "871 WickConfirmFilter vs 825",
@@ -210,29 +210,484 @@
       "control_magic": 20260825,
       "fork_today_n": 0,
       "fork_today_pips": 0.0,
-      "control_today_n": 0,
-      "control_today_pips": 0.0,
+      "control_today_n": 2,
+      "control_today_pips": -15.7,
       "fork_total_n": 0,
       "fork_total_pips": 0.0,
-      "control_total_n": 271,
-      "control_total_pips": -2159.6
+      "control_total_n": 273,
+      "control_total_pips": -2175.3
     }
   ],
   "market": {
-    "error": "no bars"
+    "open": 4188.32,
+    "high": 4217.14,
+    "low": 4154.51,
+    "last": 4169.32,
+    "range_pips": 626.3,
+    "net_pips": -190.0
   },
   "what_he_posted": {
-    "signal_count": 0,
-    "direction_split": {},
-    "signals": [],
-    "commentary": []
+    "signal_count": 13,
+    "direction_split": {
+      "buy limit": 4,
+      "buy": 5,
+      "sell": 4
+    },
+    "signals": [
+      {
+        "time": "04:14:21",
+        "id": 1382,
+        "direction": "buy limit",
+        "entry_low": 4187.0,
+        "entry_high": 4193.0,
+        "sl": 4186.0,
+        "tp1": 4196.0,
+        "tp2": 4200.0,
+        "tp3": 4205.0
+      },
+      {
+        "time": "04:14:21",
+        "id": 1383,
+        "direction": "buy",
+        "entry_low": 4194.0,
+        "entry_high": 4199.0,
+        "sl": 4193.0,
+        "tp1": 4201.0,
+        "tp2": 4204.0,
+        "tp3": 4208.0
+      },
+      {
+        "time": "05:29:22",
+        "id": 1384,
+        "direction": "buy",
+        "entry_low": 4180.0,
+        "entry_high": 4186.0,
+        "sl": 4179.0,
+        "tp1": 4189.0,
+        "tp2": 4193.0,
+        "tp3": 4198.0
+      },
+      {
+        "time": "05:30:51",
+        "id": 1385,
+        "direction": "buy",
+        "entry_low": 4174.0,
+        "entry_high": 4180.0,
+        "sl": 4173.0,
+        "tp1": 4183.0,
+        "tp2": 4187.0,
+        "tp3": 4192.0
+      },
+      {
+        "time": "07:54:07",
+        "id": 1386,
+        "direction": "sell",
+        "entry_low": 4184.0,
+        "entry_high": 4190.0,
+        "sl": 4191.0,
+        "tp1": 4181.0,
+        "tp2": 4177.0,
+        "tp3": 4172.0
+      },
+      {
+        "time": "08:39:07",
+        "id": 1387,
+        "direction": "buy limit",
+        "entry_low": 4160.0,
+        "entry_high": 4165.0,
+        "sl": 4158.0,
+        "tp1": 4170.0,
+        "tp2": 4175.0,
+        "tp3": 4183.0
+      },
+      {
+        "time": "09:11:09",
+        "id": 1388,
+        "direction": "sell",
+        "entry_low": 4177.0,
+        "entry_high": 4182.0,
+        "sl": 4183.0,
+        "tp1": 4175.0,
+        "tp2": 4172.0,
+        "tp3": 4168.0
+      },
+      {
+        "time": "10:00:24",
+        "id": 1389,
+        "direction": "sell",
+        "entry_low": 4174.0,
+        "entry_high": 4180.0,
+        "sl": 4181.0,
+        "tp1": 4171.0,
+        "tp2": 4167.0,
+        "tp3": 4162.0
+      },
+      {
+        "time": "10:39:08",
+        "id": 1390,
+        "direction": "sell",
+        "entry_low": 4180.0,
+        "entry_high": 4186.0,
+        "sl": 4188.0,
+        "tp1": 4177.0,
+        "tp2": 4172.0,
+        "tp3": 4170.0
+      },
+      {
+        "time": "12:14:23",
+        "id": 1391,
+        "direction": "buy",
+        "entry_low": 4162.0,
+        "entry_high": 4168.0,
+        "sl": 4161.0,
+        "tp1": 4171.0,
+        "tp2": 4175.0,
+        "tp3": 4180.0
+      },
+      {
+        "time": "12:40:38",
+        "id": 1392,
+        "direction": "buy",
+        "entry_low": 4155.0,
+        "entry_high": 4161.0,
+        "sl": 4154.0,
+        "tp1": 4164.0,
+        "tp2": 4168.0,
+        "tp3": 4173.0
+      },
+      {
+        "time": "13:14:24",
+        "id": 1393,
+        "direction": "buy limit",
+        "entry_low": 4154.0,
+        "entry_high": 4160.0,
+        "sl": 4153.0,
+        "tp1": 4163.0,
+        "tp2": 4167.0,
+        "tp3": 4172.0
+      },
+      {
+        "time": "16:29:24",
+        "id": 1394,
+        "direction": "buy limit",
+        "entry_low": 4153.0,
+        "entry_high": 4159.0,
+        "sl": 4152.0,
+        "tp1": 4162.0,
+        "tp2": 4166.0,
+        "tp3": 4171.0
+      }
+    ],
+    "commentary": [
+      {
+        "time": "04:59:21",
+        "signal_id": "1382",
+        "text": "ACTIVE"
+      },
+      {
+        "time": "05:56:34",
+        "signal_id": "1385",
+        "text": "A SLOEW START FOR THE MARKETS TODAY AND GOLD IS FULLY RESPECTING THE 1M TF AGAIN BUT THIS ENTRY WAS PERFECT"
+      },
+      {
+        "time": "09:45:04",
+        "signal_id": "1386",
+        "text": "PERFECT SNIPER ENTRY ON THIS SHORT"
+      },
+      {
+        "time": "09:54:08",
+        "signal_id": "1388",
+        "text": "ANOTHER PERFECT SNIPER ENTRY ON THIS TRADE"
+      },
+      {
+        "time": "12:29:23",
+        "signal_id": "1387",
+        "text": "Active"
+      },
+      {
+        "time": "12:29:23",
+        "signal_id": "1387",
+        "text": "SL 4157"
+      },
+      {
+        "time": "12:40:38",
+        "signal_id": "1389",
+        "text": "ANOTHER PERFECT SNIPER ENTRY ON THIS SETUP"
+      },
+      {
+        "time": "12:40:38",
+        "signal_id": "1387",
+        "text": "Now we will hold 4160 with BE or secure some profit and cut 4165 entry"
+      },
+      {
+        "time": "12:40:38",
+        "signal_id": "1387",
+        "text": "SL -80"
+      },
+      {
+        "time": "13:14:24",
+        "signal_id": "1365",
+        "text": "PERFECT SNIPER ENTRY ON THIS LIMIT TRADE"
+      },
+      {
+        "time": "13:14:24",
+        "signal_id": "1392",
+        "text": "WRAPPING THE AFTERNOON UP WITH YET ANOTHER SNIPER ENTRY TP3 TRADE AND FULLY RECOVERING THE TP1 REVERSALS FROM THIS MORNING"
+      }
+    ]
   },
   "what_we_observed": {
-    "deals_today": 0,
-    "entries_by_magic": {},
-    "open_positions": []
+    "deals_today": 99,
+    "entries_by_magic": {
+      "20260858": 6,
+      "20260861": 6,
+      "20260853": 8,
+      "20260827": 8,
+      "20260862": 6,
+      "20260859": 6,
+      "20260854": 2,
+      "20260825": 2,
+      "20260856": 2,
+      "20260863": 2,
+      "20260808": 1,
+      "20260860": 1,
+      "20260864": 1
+    },
+    "open_positions": [
+      {
+        "ticket": 478967448,
+        "magic": 20260808,
+        "profit_usd": -4.7
+      },
+      {
+        "ticket": 478967453,
+        "magic": 20260860,
+        "profit_usd": -4.57
+      },
+      {
+        "ticket": 478967454,
+        "magic": 20260864,
+        "profit_usd": -4.57
+      }
+    ]
   },
-  "ea_mechanics": {},
+  "ea_mechanics": {
+    "863": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "HOUR_FILTER_SKIP": 6,
+      "AMEND_NOMATCH": 6,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_BREAKEVEN": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "865": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "HOUR_FILTER_SKIP": 9,
+      "AMEND_NOMATCH": 6,
+      "LIMIT_PLACED": 6,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "HIS_AMEND": 2
+    },
+    "866": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 8,
+      "AMEND_NOMATCH": 6,
+      "HOUR_FILTER_SKIP": 5,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "HIS_AMEND": 2
+    },
+    "867": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "AMEND_NOMATCH": 6,
+      "LIMIT_PLACED": 6,
+      "HOUR_FILTER_SKIP": 5,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "HIS_AMEND": 2
+    },
+    "868": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "AMEND_NOMATCH": 6,
+      "LIMIT_PLACED": 6,
+      "HOUR_FILTER_SKIP": 5,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "HIS_AMEND": 2
+    },
+    "871": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "AMEND_NOMATCH": 8,
+      "STALE_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3
+    },
+    "fvgsizegate_858": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 12,
+      "FVG_NO_MATCH_SKIP": 5,
+      "FVG_GATE_PASS": 5,
+      "AMEND_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 3,
+      "HIS_AMEND": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2,
+      "TOLERANCE_SKIP": 2
+    },
+    "fvgsizegate_tol9_861": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 12,
+      "FVG_NO_MATCH_SKIP": 7,
+      "AMEND_NOMATCH": 5,
+      "FVG_GATE_PASS": 4,
+      "HIS_AMEND": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2,
+      "FVG_TOO_SMALL_SKIP": 2
+    },
+    "fvgsizegate_trail8_859": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 12,
+      "FVG_NO_MATCH_SKIP": 5,
+      "FVG_GATE_PASS": 5,
+      "AMEND_NOMATCH": 5,
+      "FVG_TOO_SMALL_SKIP": 3,
+      "HIS_AMEND": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2,
+      "TOLERANCE_SKIP": 2
+    },
+    "fvgsizegate_trail8_tol9_862": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 12,
+      "FVG_NO_MATCH_SKIP": 7,
+      "AMEND_NOMATCH": 5,
+      "FVG_GATE_PASS": 4,
+      "HIS_AMEND": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2,
+      "FVG_TOO_SMALL_SKIP": 2
+    },
+    "trail8_853": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 14,
+      "HIS_AMEND": 4,
+      "TOLERANCE_SKIP": 4,
+      "TREND_COUNTER_SKIP": 4,
+      "AMEND_NOMATCH": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2
+    },
+    "trail8_856": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "HOUR_FILTER_SKIP": 6,
+      "AMEND_NOMATCH": 6,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_BREAKEVEN": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "trail8_857": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "AMEND_NOMATCH": 6,
+      "HOUR_FILTER_SKIP": 4,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "trail8_lossstop50_854": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "HOUR_FILTER_SKIP": 6,
+      "AMEND_NOMATCH": 6,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_BREAKEVEN": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "trail8_lossstop50_855": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "AMEND_NOMATCH": 6,
+      "HOUR_FILTER_SKIP": 4,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "v12": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "HOUR_FILTER_SKIP": 6,
+      "AMEND_NOMATCH": 6,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 2,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_BREAKEVEN": 1,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    },
+    "v5revival": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 16,
+      "LIMIT_PLACED": 14,
+      "HIS_AMEND": 4,
+      "TOLERANCE_SKIP": 4,
+      "TREND_COUNTER_SKIP": 4,
+      "AMEND_NOMATCH": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "MARKET_PLACED": 2
+    },
+    "v5revival_hourfilter": {
+      "PARTIAL_CLOSE_NO_CANCEL": 31,
+      "HIS_PARTIAL_CLOSE_CANCEL_NOMATCH": 15,
+      "LIMIT_PLACED": 10,
+      "AMEND_NOMATCH": 6,
+      "HOUR_FILTER_SKIP": 4,
+      "TREND_COUNTER_SKIP": 4,
+      "MTF_MISMATCH_SKIP": 3,
+      "HIS_BREAKEVEN_NOMATCH": 3,
+      "TOLERANCE_SKIP": 2,
+      "HIS_AMEND": 2,
+      "HIS_PARTIAL_CLOSE_CANCEL": 1
+    }
+  },
   "recommendations": [
     {
       "title": "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
