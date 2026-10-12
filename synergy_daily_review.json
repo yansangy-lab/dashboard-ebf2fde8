@@ -1,9 +1,10 @@
 {
-  "generated_utc": "2026-10-12T17:40:43.874011+00:00",
+  "generated_utc": "2026-10-12T17:52:30.989054+00:00",
   "local_date": "2026-10-12",
   "top": {
-    "headline": "Market -190.0p -- 99 real deals today -- 3 fork(s) beat their control today, 5 didn't",
+    "headline": "Market -185.9p -- 99 real deals today -- 3 fork(s) beat their control today, 5 didn't",
     "decisions": [
+      "871 (wick-confirm filter) has placed ZERO orders since attach -- cause found and FIXED in source 2026-10-12, NEEDS RE-ATTACH",
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
       "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample"
     ]
@@ -222,9 +223,9 @@
     "open": 4188.32,
     "high": 4217.14,
     "low": 4154.51,
-    "last": 4169.32,
+    "last": 4169.73,
     "range_pips": 626.3,
-    "net_pips": -190.0
+    "net_pips": -185.9
   },
   "what_he_posted": {
     "signal_count": 13,
@@ -457,17 +458,17 @@
       {
         "ticket": 478967448,
         "magic": 20260808,
-        "profit_usd": -4.7
+        "profit_usd": -5.11
       },
       {
         "ticket": 478967453,
         "magic": 20260860,
-        "profit_usd": -4.57
+        "profit_usd": -4.98
       },
       {
         "ticket": 478967454,
         "magic": 20260864,
-        "profit_usd": -4.57
+        "profit_usd": -4.98
       }
     ]
   },
@@ -690,6 +691,12 @@
   },
   "recommendations": [
     {
+      "title": "871 (wick-confirm filter) has placed ZERO orders since attach -- cause found and FIXED in source 2026-10-12, NEEDS RE-ATTACH",
+      "detail": "Journal 10-05..10-12: 112 signals queued, 43 wick confirmations FIRED, 0 orders placed. Cause: the confirm-fire path called PlaceLegs(sig,false), which applies the 180s arrival-staleness gate to signals that had legitimately waited minutes to hours for confirmation, so every confirmed entry was logged STALE_SKIP (39 rows, ages 300s to 86375s). Fix (single-EA, in place): staleness gate now runs once at arrival, and the fire path calls PlaceLegs(sig,true) like the retry queue. Compiled clean 0 errors/0 warnings 2026-10-12 18:52. The running instance still has the OLD code until you re-attach 871 (save the MT5 profile after). Until then 871's scoreboard n=0 means nothing. Treat its forward test as starting from the re-attach date, not 10-05.",
+      "added": "2026-10-12",
+      "updated": "2026-10-12"
+    },
+    {
       "title": "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
       "detail": "Checked 2026-10-03, real trades since attach (2026-09-30): 861 (9p) net -168.1p/n=14 vs control 858 (15p) net +10.1p/n=24; 862 (9p trail8) net -305.8p/n=14 vs control 859 (15p trail8) net -86.5p/n=24 -- opposite direction from the backtest, which favored 9p on every axis (avg +12.92p vs +5.21p, WR 69.9% vs 65.6%, DD 5.56% vs 7.30%, real $10k basis, n=1213 real signals). Dug into why: 861 is a strict subset of 858's trades (same 7 signals, byte-identical entry/exit prices on every shared one -- confirmed no implementation bug, no FVG-selection difference). The tighter tolerance simply excluded 5 signals 858 caught, and 4 of those 5 were real winners (+30.0p, +56.5p, +53.8p, +52.8p) with only 1 small loser (-14.9p) -- that's the entire gap. This is ordinary small-sample variance (12-14 real trades vs the 1213-signal backtest population), not evidence the backtest is wrong or the fork is broken. DO NOT retire 858/859 or draw any conclusion from this -- needs meaningfully more real trades (same order of magnitude as the original validation) before the real data says anything trustworthy either way.",
       "added": "2026-09-30",
@@ -697,9 +704,9 @@
     },
     {
       "title": "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample",
-      "detail": "Checked 2026-10-03. TC trades rarely -- only 4 real signals total since July (09-11, 09-23, 09-28, 10-01). 860 wasn't attached until 09-29, so it could only ever see the last 1-2 of those; it caught exactly one (2026-10-01, entry 4152.66). That trade hit its stop-loss directly ([sl 4160.92], -83.2p) without ever reaching the point where trail-past-target would arm -- 808 (control) shows the IDENTICAL entry/exit/loss on the same real trade, because both forks are just reporting the same plain stop-out; the mechanism 860 exists to test never got a chance to engage at all. This is not 'too thin to tell' in the usual noisy-small-sample sense -- it's zero real evidence either way, because the one trade available couldn't have differentiated the two designs regardless of outcome. No action -- just keep waiting for TC's next real signal, and specifically one that reaches its TP1-equivalent arm point, before this comparison means anything.",
+      "detail": "Checked 2026-10-03. TC trades rarely -- only 4 real signals total since July (09-11, 09-23, 09-28, 10-01). 860 wasn't attached until 09-29, so it could only ever see the last 1-2 of those; it caught exactly one (2026-10-01, entry 4152.66). That trade hit its stop-loss directly ([sl 4160.92], -83.2p) without ever reaching the point where trail-past-target would arm -- 808 (control) shows the IDENTICAL entry/exit/loss on the same real trade, because both forks are just reporting the same plain stop-out; the mechanism 860 exists to test never got a chance to engage at all. This is not 'too thin to tell' in the usual noisy-small-sample sense -- it's zero real evidence either way, because the one trade available couldn't have differentiated the two designs regardless of outcome. No action -- just keep waiting for TC's next real signal, and specifically one that reaches its TP1-equivalent arm point, before this comparison means anything. UPDATE 2026-10-12: 808, 860 and 864 each now hold one OPEN position (floating about -$4.6 each at 18:40 UK), the first real TC chance since 10-01. Still no evidence either way until that trade reaches its arm point or stops out.",
       "added": "2026-09-30",
-      "updated": "2026-10-03"
+      "updated": "2026-10-12"
     }
   ]
 }
