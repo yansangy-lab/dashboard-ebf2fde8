@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-10-13T18:21:56.625263+00:00",
+  "generated_utc": "2026-10-13T18:22:42.067496+00:00",
   "local_date": "2026-10-13",
   "top": {
-    "headline": "Market -93.4p -- 373 real deals today -- 6 fork(s) beat their control today, 8 didn't",
+    "headline": "Market -98.5p -- 373 real deals today -- 6 fork(s) beat their control today, 8 didn't",
     "decisions": [
-      "871 (wick-confirm filter) has placed ZERO orders since attach -- cause found and FIXED in source 2026-10-12, NEEDS RE-ATTACH",
+      "871 (wick-confirm filter) -- stale-gate fix CONFIRMED WORKING live 2026-10-13; forward test now genuinely running, no fills yet",
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
       "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample"
     ]
@@ -223,9 +223,9 @@
     "open": 4169.24,
     "high": 4200.45,
     "low": 4146.7,
-    "last": 4159.9,
+    "last": 4159.39,
     "range_pips": 537.5,
-    "net_pips": -93.4
+    "net_pips": -98.5
   },
   "what_he_posted": {
     "signal_count": 22,
@@ -778,10 +778,10 @@
   },
   "recommendations": [
     {
-      "title": "871 (wick-confirm filter) has placed ZERO orders since attach -- cause found and FIXED in source 2026-10-12, NEEDS RE-ATTACH",
-      "detail": "Journal 10-05..10-12: 112 signals queued, 43 wick confirmations FIRED, 0 orders placed. Cause: the confirm-fire path called PlaceLegs(sig,false), which applies the 180s arrival-staleness gate to signals that had legitimately waited minutes to hours for confirmation, so every confirmed entry was logged STALE_SKIP (39 rows, ages 300s to 86375s). Fix (single-EA, in place): staleness gate now runs once at arrival, and the fire path calls PlaceLegs(sig,true) like the retry queue. Compiled clean 0 errors/0 warnings 2026-10-12 18:52. The running instance still has the OLD code until you re-attach 871 (save the MT5 profile after). Until then 871's scoreboard n=0 means nothing. Treat its forward test as starting from the re-attach date, not 10-05.",
+      "title": "871 (wick-confirm filter) -- stale-gate fix CONFIRMED WORKING live 2026-10-13; forward test now genuinely running, no fills yet",
+      "detail": "Re-attached 2026-10-12 21:49 after the fix. 2026-10-13: 22 signals queued, 10 confirmations fired, ALL 10 went through PlaceLegs with isRetry=true (the fixed path), 0 STALE_SKIP (was 39 in the previous week). 9 of the 10 were then skipped by 825's own gates (HOUR_FILTER 4, MTF_MISMATCH 4, ZONE_TOO_NARROW 1); 1 placed (signal 1412, 2 limit legs at 4163.20) and has not filled. Scoreboard n=0 is now real, not a bug. Offline replay (10-12, simulated) said 871 should NOT beat 825 overall (-1284.6p vs -746.4p); this forward test checks that. Judge from 2026-10-12 forward only.",
       "added": "2026-10-12",
-      "updated": "2026-10-12"
+      "updated": "2026-10-13"
     },
     {
       "title": "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
@@ -791,9 +791,9 @@
     },
     {
       "title": "860 vs 808 (trail-past-target@5p) -- 860's own mechanism has had ZERO real chances to activate yet, not just a thin sample",
-      "detail": "Checked 2026-10-03. TC trades rarely -- only 4 real signals total since July (09-11, 09-23, 09-28, 10-01). 860 wasn't attached until 09-29, so it could only ever see the last 1-2 of those; it caught exactly one (2026-10-01, entry 4152.66). That trade hit its stop-loss directly ([sl 4160.92], -83.2p) without ever reaching the point where trail-past-target would arm -- 808 (control) shows the IDENTICAL entry/exit/loss on the same real trade, because both forks are just reporting the same plain stop-out; the mechanism 860 exists to test never got a chance to engage at all. This is not 'too thin to tell' in the usual noisy-small-sample sense -- it's zero real evidence either way, because the one trade available couldn't have differentiated the two designs regardless of outcome. No action -- just keep waiting for TC's next real signal, and specifically one that reaches its TP1-equivalent arm point, before this comparison means anything. UPDATE 2026-10-12: 808, 860 and 864 each now hold one OPEN position (floating about -$4.6 each at 18:40 UK), the first real TC chance since 10-01. Still no evidence either way until that trade reaches its arm point or stops out.",
+      "detail": "Checked 2026-10-03. TC trades rarely -- only 4 real signals total since July (09-11, 09-23, 09-28, 10-01). 860 wasn't attached until 09-29, so it could only ever see the last 1-2 of those; it caught exactly one (2026-10-01, entry 4152.66). That trade hit its stop-loss directly ([sl 4160.92], -83.2p) without ever reaching the point where trail-past-target would arm -- 808 (control) shows the IDENTICAL entry/exit/loss on the same real trade, because both forks are just reporting the same plain stop-out; the mechanism 860 exists to test never got a chance to engage at all. This is not 'too thin to tell' in the usual noisy-small-sample sense -- it's zero real evidence either way, because the one trade available couldn't have differentiated the two designs regardless of outcome. No action -- just keep waiting for TC's next real signal, and specifically one that reaches its TP1-equivalent arm point, before this comparison means anything. UPDATE 2026-10-13: the TC SELL taken 10-12 closed today. 808 -155.8p, 860 -154.5p (same plain stop-out, 860's trail-past-target never armed -- still zero evidence on its mechanism), 864 -59.4p (exited at 4171.09 vs 808/860 at 4180.6, ~95p better on this one trade, n=1, cause not examined).",
       "added": "2026-09-30",
-      "updated": "2026-10-12"
+      "updated": "2026-10-13"
     }
   ]
 }
