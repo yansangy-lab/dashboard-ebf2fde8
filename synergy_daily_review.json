@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-17T18:00:02.148233+00:00",
-  "local_date": "2026-10-17",
+  "generated_utc": "2026-10-18T18:00:02.165137+00:00",
+  "local_date": "2026-10-18",
   "top": {
-    "headline": "Market -33.5p -- 0 real deals today",
+    "headline": "0 real deals today",
     "decisions": [
       "871 (wick-confirm filter) -- stale-gate fix CONFIRMED WORKING live 2026-10-13; forward test now genuinely running, no fills yet",
       "861/862 vs 858/859 (FVG tolerance 9p vs 15p) -- real data currently running AGAINST the backtest, sample too thin to mean anything yet",
@@ -220,12 +220,7 @@
     }
   ],
   "market": {
-    "open": 4168.69,
-    "high": 4169.47,
-    "low": 4163.03,
-    "last": 4165.34,
-    "range_pips": 64.4,
-    "net_pips": -33.5
+    "error": "no bars"
   },
   "what_he_posted": {
     "signal_count": 0,
